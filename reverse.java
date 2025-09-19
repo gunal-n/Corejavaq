@@ -39,28 +39,28 @@
 //     }
 // }
 
-import java.util.*;
+// import java.util.*;
 
-class reverse{
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int  s = sc.nextInt();
+// class reverse{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int  s = sc.nextInt();
 
-        int arr[] = new int[s];
-        for(int i = 0; i < s; i++){
-            arr[i] = sc.nextInt();
-        }
+//         int arr[] = new int[s];
+//         for(int i = 0; i < s; i++){
+//             arr[i] = sc.nextInt();
+//         }
 
-         List<Integer> list = new ArrayList<>();
-        for (int num : arr) {
-            list.add(num);
-        }
+//          List<Integer> list = new ArrayList<>();
+//         for (int num : arr) {
+//             list.add(num);
+//         }
 
-          Collections.reverse(list);
+//           Collections.reverse(list);
 
-           for (int num : list) {
-            System.out.print(num + " ");
-        }
-        sc.close();
-    }
-}
+//            for (int num : list) {
+//             System.out.print(num + " ");
+//         }
+//         sc.close();
+//     }
+// }
